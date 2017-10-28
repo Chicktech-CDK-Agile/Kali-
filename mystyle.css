@@ -1,0 +1,32 @@
+
+
+.hidden {
+    display: none;
+}
+
+.padding-bottom {
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(211, 11, 11);
+    text-align: center;
+    font-family: 'Lucida Sans'
+} 
+
+p {
+    font-size: 14px;
+    text-align: center; 
+
+}
+body {
+    font-family: 'Lucida Sans';
+    color: black;
+    background-image: url("https://image.freepik.com/free-vector/red-watercolor-background-with-space_1034-849.jpg")
+    
+}
+    
+ 
+
+

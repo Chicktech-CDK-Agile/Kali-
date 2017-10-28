@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <!-- This is where we load JavaScript files that we need - here I'm loading phaser and bootstrap (a bunch of helpful classes
+    to make your websites look more modern and fancy!)-->
+    <meta charset="UTF-8" />
+    <title>ChickTech JavaScript</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.6.2/phaser.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!--loading our CSS file-->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    </head>
+
+<head>
+   <div class = "row">
+      <h1>About Me!</h1>  
+         </div>
+
+<body>
+        <!--Build your about me page here!-->
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+               Hi! My name is Kali and I am a freshman at Lincoln High School.
+            <img src = "http://www.wweek.com/resizer/Y-FjBCxYWWPkO6mJIoizzGIvHHg=/1200x0/filters:quality(100)/s3.amazonaws.com/wapopartners.com/wweek-wp/wp-content/uploads/2016/04/05084710/Lincoln-Lacrosse-Fierce-Cardinal.png" height ="200px" width="250 px">
+            </div>
+            <div class="col-md-4">
+                I enjoy singing, writing, playing/listening to music, basketball, snowboarding, cooking, and meeting new people. I've been singing and playing the guitar since I was very young. I write original songs and create chords with them. I also participate in choir and local shows/competitions. 
+            <img src = "http://media.npr.org/assets/img/2012/01/31/Choir_wide-b3c0d82118c072fbd4ba0448c038b6c2a989988b-s900-c85.jpg" width="400px" height="300px" >
+            </div>
+            <div class="col-md-4">
+                I belive that fulfilling your potential is the most crucial factor in life, and that trying in everything you do is important; whether it be academics to what you wear.
+            <img src = "http://q.likesuccess.com/73/3635303-the-purpose-of-life-is-to-fulfill-your-potential-which-is-saying-the.jpg" width="350px" height="300px">
+<!--END HTML FOR ABOUT ME PAGE-->
+
+<!--Put any javascript here-->
+<script type="text/javascript">
+
+    //this opens a new window when you click the button with our game html! Since an entire URL is not specified,
+    //it opens relative to your current path - if you are on www.mywebsite.com/index.html, this would go to
+    //www.mywebsite.com/game.html
+    var onClick = function() {
+      window.open('/game.html');
+    };
